@@ -433,7 +433,7 @@ function hit() {
 }
 
 function ubust() {
-    document.getElementById("info").innerHTML = "You busted! Your total went over 21.";
+    document.getElementById("info").innerHTML = "You busted! Your total went over 21. Place bet again.";
     replacecard(dhidden, "d2");
     var bet = document.getElementById("bet");
     bet.disabled = false;
@@ -451,7 +451,7 @@ function ubust() {
 }
 
 function ublackjack() {
-    document.getElementById("info").innerHTML = "BLACKJACK!!! You profit 2x of your bet.";
+    document.getElementById("info").innerHTML = "BLACKJACK!!! You profit 2x of your bet. Place bet again.";
     replacecard(dhidden, "d2");
     var bet = document.getElementById("bet");
     var coins = document.getElementById("coins");
@@ -471,7 +471,7 @@ function ublackjack() {
 }
 
 function ufive() {
-    document.getElementById("info").innerHTML = "You drew 5 cards without going bust. Enjoy your profit.";
+    document.getElementById("info").innerHTML = "You drew 5 cards without going bust. Enjoy your profit. Place bet again.";
     replacecard(dhidden, "d2");
     var bet = document.getElementById("bet");
     var coins = document.getElementById("coins");
@@ -549,7 +549,7 @@ function stand() {
 }
 
 function dbust() {
-    document.getElementById("info").innerHTML = "Dealer busted! You win this round";
+    document.getElementById("info").innerHTML = "Dealer busted! You win this round. Place bet again.";
     var bet = document.getElementById("bet");
     var coins = document.getElementById("coins");
     bet.disabled = false;
@@ -568,7 +568,7 @@ function dbust() {
 }
 
 function dblackjack() {
-    document.getElementById("info").innerHTML = "DEALER's BLACKJACK!!! You lose this round.";
+    document.getElementById("info").innerHTML = "DEALER's BLACKJACK!!! You lose this round. Place bet again.";
     var bet = document.getElementById("bet");
     bet.disabled = false;
     document.getElementById("allin").disabled = false;
@@ -585,7 +585,7 @@ function dblackjack() {
 }
 
 function dfive() {
-    document.getElementById("info").innerHTML = "Dealer drew 5 cards without going bust. Unlucky for you.";
+    document.getElementById("info").innerHTML = "Dealer drew 5 cards without going bust. Unlucky for you. Place bet again.";
     var bet = document.getElementById("bet");
     bet.disabled = false;
     document.getElementById("allin").disabled = false;
@@ -603,16 +603,16 @@ function dfive() {
 
 function checktotal() {
     if (utotal > dtotal) {
-        document.getElementById("info").innerHTML = "Your total is greater than the dealer's. You win.";
+        document.getElementById("info").innerHTML = "Your total is greater than the dealer's. You win. Place bet again.";
         var bet = document.getElementById("bet");
         var coins = document.getElementById("coins");
         coins.innerHTML = Number(coins.innerHTML) + (2 * bet.value);
     }
     else if (dtotal > utotal) {
-        document.getElementById("info").innerHTML = "Dealer's total is greater than yours. You lose.";
+        document.getElementById("info").innerHTML = "Dealer's total is greater than yours. You lose. Place bet again.";
     }
     else {
-        document.getElementById("info").innerHTML = "Both totals are equal. Its a tie.";
+        document.getElementById("info").innerHTML = "Both totals are equal. Its a tie. Place bet again.";
         var bet = document.getElementById("bet");
         var coins = document.getElementById("coins");
         coins.innerHTML = Number(coins.innerHTML) + (1 * bet.value);
