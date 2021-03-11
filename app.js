@@ -334,10 +334,6 @@ function placebet() {
     else {
         utotal += card;
     }
-    if (utotal == 21) {
-        ublackjack();
-        return;
-    }
     do {
         card = Math.floor(Math.random() * 52) + 1;
         check = 0;
@@ -387,6 +383,10 @@ function placebet() {
     }
     else {
         dtotal += card;
+    }
+    if (utotal == 21) {
+        ublackjack();
+        return;
     }
     document.getElementById("info").innerHTML = "Use the above buttons to hit or stand.";
     document.getElementById("hit").disabled = false;
