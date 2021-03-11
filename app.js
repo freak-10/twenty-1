@@ -89,163 +89,163 @@ function replacecard(card, id) {
     setTimeout(function () {
         switch (card) {
             case 1:
-                document.getElementById(id).src = "cards/AC.png";
+                document.getElementById(id).src = "https://i.imgur.com/6niblpZ.png";
                 break;
             case 2:
-                document.getElementById(id).src = "cards/2C.png";
+                document.getElementById(id).src = "https://i.imgur.com/7AtUOJO.png";
                 break;
             case 3:
-                document.getElementById(id).src = "cards/3C.png";
+                document.getElementById(id).src = "https://i.imgur.com/O2BCcO8.png";
                 break;
             case 4:
-                document.getElementById(id).src = "cards/4C.png";
+                document.getElementById(id).src = "https://i.imgur.com/mwFtoBM.png";
                 break;
             case 5:
-                document.getElementById(id).src = "cards/5C.png";
+                document.getElementById(id).src = "https://i.imgur.com/iddTJ7s.png";
                 break;
             case 6:
-                document.getElementById(id).src = "cards/6C.png";
+                document.getElementById(id).src = "https://i.imgur.com/163xek4.png";
                 break;
             case 7:
-                document.getElementById(id).src = "cards/7C.png";
+                document.getElementById(id).src = "https://i.imgur.com/YIV3Na0.png";
                 break;
             case 8:
-                document.getElementById(id).src = "cards/8C.png";
+                document.getElementById(id).src = "https://i.imgur.com/h9Amtc4.png";
                 break;
             case 9:
-                document.getElementById(id).src = "cards/9C.png";
+                document.getElementById(id).src = "https://i.imgur.com/gAmNfn2.png";
                 break;
             case 10:
-                document.getElementById(id).src = "cards/10C.png";
+                document.getElementById(id).src = "https://i.imgur.com/QRZNCjj.png";
                 break;
             case 11:
-                document.getElementById(id).src = "cards/JC.png";
+                document.getElementById(id).src = "https://i.imgur.com/INRrh1W.png";
                 break;
             case 12:
-                document.getElementById(id).src = "cards/QC.png";
+                document.getElementById(id).src = "https://i.imgur.com/05xAcKn.png";
                 break;
             case 13:
-                document.getElementById(id).src = "cards/KC.png";
+                document.getElementById(id).src = "https://i.imgur.com/ArmYdO8.png";
                 break;
             case 14:
-                document.getElementById(id).src = "cards/AD.png";
+                document.getElementById(id).src = "https://i.imgur.com/HFORgVP.png";
                 break;
             case 15:
-                document.getElementById(id).src = "cards/2D.png";
+                document.getElementById(id).src = "https://i.imgur.com/JRcOlU4.png";
                 break;
             case 16:
-                document.getElementById(id).src = "cards/3D.png";
+                document.getElementById(id).src = "https://i.imgur.com/7ZT9HK6.png";
                 break;
             case 17:
-                document.getElementById(id).src = "cards/4D.png";
+                document.getElementById(id).src = "https://i.imgur.com/Qbn6C4I.png";
                 break;
             case 18:
-                document.getElementById(id).src = "cards/5D.png";
+                document.getElementById(id).src = "https://i.imgur.com/XR2fY2y.png";
                 break;
             case 19:
-                document.getElementById(id).src = "cards/6D.png";
+                document.getElementById(id).src = "https://i.imgur.com/8w5DECz.png";
                 break;
             case 20:
-                document.getElementById(id).src = "cards/7D.png";
+                document.getElementById(id).src = "https://i.imgur.com/UNhR3bH.png";
                 break;
             case 21:
-                document.getElementById(id).src = "cards/8D.png";
+                document.getElementById(id).src = "https://i.imgur.com/oTw5M2k.png";
                 break;
             case 22:
-                document.getElementById(id).src = "cards/9D.png";
+                document.getElementById(id).src = "https://i.imgur.com/Pr58GuX.png";
                 break;
             case 23:
-                document.getElementById(id).src = "cards/10D.png";
+                document.getElementById(id).src = "https://i.imgur.com/SaIU4Ew.png";
                 break;
             case 24:
-                document.getElementById(id).src = "cards/JD.png";
+                document.getElementById(id).src = "https://i.imgur.com/Ikgms93.png";
                 break;
             case 25:
-                document.getElementById(id).src = "cards/QD.png";
+                document.getElementById(id).src = "https://i.imgur.com/9UMKPrc.png";
                 break;
             case 26:
-                document.getElementById(id).src = "cards/KD.png";
+                document.getElementById(id).src = "https://i.imgur.com/jf6VqSo.png";
                 break;
             case 27:
-                document.getElementById(id).src = "cards/AH.png";
+                document.getElementById(id).src = "https://i.imgur.com/ro6cvGK.png";
                 break;
             case 28:
-                document.getElementById(id).src = "cards/2H.png";
+                document.getElementById(id).src = "https://i.imgur.com/yAzvqt5.png";
                 break;
             case 29:
-                document.getElementById(id).src = "cards/3H.png";
+                document.getElementById(id).src = "https://i.imgur.com/al3xJJZ.png";
                 break;
             case 30:
-                document.getElementById(id).src = "cards/4H.png";
+                document.getElementById(id).src = "https://i.imgur.com/3h2eS3N.png";
                 break;
             case 31:
-                document.getElementById(id).src = "cards/5H.png";
+                document.getElementById(id).src = "https://i.imgur.com/tt7iN5N.png";
                 break;
             case 32:
-                document.getElementById(id).src = "cards/6H.png";
+                document.getElementById(id).src = "https://i.imgur.com/IzMg8vh.png";
                 break;
             case 33:
-                document.getElementById(id).src = "cards/7H.png";
+                document.getElementById(id).src = "https://i.imgur.com/0QZn7eg.png";
                 break;
             case 34:
-                document.getElementById(id).src = "cards/8H.png";
+                document.getElementById(id).src = "https://i.imgur.com/sGXX1iY.png";
                 break;
             case 35:
-                document.getElementById(id).src = "cards/9H.png";
+                document.getElementById(id).src = "https://i.imgur.com/piHPL6o.png";
                 break;
             case 36:
-                document.getElementById(id).src = "cards/10H.png";
+                document.getElementById(id).src = "https://i.imgur.com/o619hdg.png";
                 break;
             case 37:
-                document.getElementById(id).src = "cards/JH.png";
+                document.getElementById(id).src = "https://i.imgur.com/HRczEnS.png";
                 break;
             case 38:
-                document.getElementById(id).src = "cards/QH.png";
+                document.getElementById(id).src = "https://i.imgur.com/eHA13wu.png";
                 break;
             case 39:
-                document.getElementById(id).src = "cards/KH.png";
+                document.getElementById(id).src = "https://i.imgur.com/2n7ejot.png";
                 break;
             case 40:
-                document.getElementById(id).src = "cards/AS.png";
+                document.getElementById(id).src = "https://i.imgur.com/EVPBHXg.png";
                 break;
             case 41:
-                document.getElementById(id).src = "cards/2S.png";
+                document.getElementById(id).src = "https://i.imgur.com/ySTIR4r.png";
                 break;
             case 42:
-                document.getElementById(id).src = "cards/3S.png";
+                document.getElementById(id).src = "https://i.imgur.com/QTWe7Hq.png";
                 break;
             case 43:
-                document.getElementById(id).src = "cards/4S.png";
+                document.getElementById(id).src = "https://i.imgur.com/I9eLkAM.png";
                 break;
             case 44:
-                document.getElementById(id).src = "cards/5S.png";
+                document.getElementById(id).src = "https://i.imgur.com/ST3oMwz.png";
                 break;
             case 45:
-                document.getElementById(id).src = "cards/6S.png";
+                document.getElementById(id).src = "https://i.imgur.com/KURYKMn.png";
                 break;
             case 46:
-                document.getElementById(id).src = "cards/7S.png";
+                document.getElementById(id).src = "https://i.imgur.com/a5hW5C3.png";
                 break;
             case 47:
-                document.getElementById(id).src = "cards/8S.png";
+                document.getElementById(id).src = "https://i.imgur.com/k363h0W.png";
                 break;
             case 48:
-                document.getElementById(id).src = "cards/9S.png";
+                document.getElementById(id).src = "https://i.imgur.com/pMk69Su.png";
                 break;
             case 49:
-                document.getElementById(id).src = "cards/10S.png";
+                document.getElementById(id).src = "https://i.imgur.com/MRpynbW.png";
                 break;
             case 50:
-                document.getElementById(id).src = "cards/JS.png";
+                document.getElementById(id).src = "https://i.imgur.com/gR8p8Oe.png";
                 break;
             case 51:
-                document.getElementById(id).src = "cards/QS.png";
+                document.getElementById(id).src = "https://i.imgur.com/1AE3uFt.png";
                 break;
             case 52:
-                document.getElementById(id).src = "cards/KS.png";
+                document.getElementById(id).src = "https://i.imgur.com/QRLHcuc.png";
                 break;
             default:
-                document.getElementById(id).src = "cards/blank.png";
+                document.getElementById(id).src = "https://i.imgur.com/hOt935h.png";
                 break;
         }
         document.getElementById(id).style.transform = "scale(1)";
